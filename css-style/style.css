@@ -49,9 +49,9 @@ nav li a{
     height: 475px;
     margin: 0 auto;
     align-items: center;
-    background-image: url(../images/main-camera.png) , url(../images/Circle\ design.svg);
-    background-position: 730px , right;
+    background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
+    background-position: right;
 }
 .hero-sec-left-content{
     width: 582px;
@@ -84,10 +84,63 @@ nav li a{
     gap: 8px;
     cursor: pointer;
 }
-.camera{
-    position: absolute;
-    right: 400px;
-    bottom: 275px;
-    
+.hero-sec-right-content img{
+    padding-left: 10px;
 }
 /* hero-section-end */
+
+/* brands-section-start */
+.brands-section{
+    display: grid;
+    width: 1110px;
+    margin: 69px auto;
+    grid-template-columns: repeat(7, auto);
+    justify-content: space-evenly;
+    border: 1px solid;
+    border-image: linear-gradient(to right,transparent, #C0CCDA, transparent) 1;
+    padding: 36px 0px;
+}
+
+/* brands-section-end */
+
+.cameras-collections{
+    width: 1047px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 30px;
+}
+.cl-h h1{
+    font-size: 28px;
+    color: var(--text-colour);
+    line-height: 70px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.collections-card{
+    width: 329px;
+    height: 476px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 17px 15px 17px 15px;
+}
+.collections-card h2{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #18191F;
+}
+.collections-card h3{
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+}
+.collections-card p{
+    font-size: 14px;
+    line-height: 143%;
+    color: #000000;
+    color: #787885;
+}

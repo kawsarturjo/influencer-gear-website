@@ -1,6 +1,38 @@
 @media screen and (max-width: 576px) {
-    .hero-section{
+    header{
         flex-direction: column;
-        
+        text-align: center;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .hero-section{
+        flex-direction: column-reverse;
+        background-position: top center;
+        width: 100%;
+        height: 100%;
+        background-size: 65%;
+    }
+    .hero-sec-right-content img{
+        padding: 35px 0px 0px 0px;
+        width: 65%;
+    }
+    
+    .hero-sec-left-content{
+        width: 100%;
+        margin: 0;
+        padding: 30px;
+    }
+    .hero-sec-left-content h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .brands-section{
+        grid-template-columns: repeat(1, auto);
+        width: 100%;
+        gap: 50px;
+    }
+    .cameras-collections{
+        grid-template-columns: repeat(1, auto);
     }
 }
