@@ -49,13 +49,13 @@ nav li a{
     height: 475px;
     margin: 0 auto;
     align-items: center;
-    background-image: url(../images/Circle\ design.svg);
+    
+    /* background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right; */
 }
 .hero-sec-left-content{
     width: 582px;
-    margin-right: 133px;
 }
 .hero-sec-left-content h1{
     font-size: 52px;
@@ -84,8 +84,14 @@ nav li a{
     gap: 8px;
     cursor: pointer;
 }
-.hero-sec-right-content img{
-    padding-left: 10px;
+.hero-sec-right-content{
+    position: relative;
+    padding-left: 133px;
+}
+.hero-sec-right-content .camera{
+    position: absolute;
+    left: 135px;
+    top: 31px;
 }
 /* hero-section-end */
 
